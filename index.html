@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Learning JavaScript</title>
+        <style>
+			body {margin: 0; overflow: hidden; background-color: black;}
+			#fps-meter {
+				position: fixed;
+				top: 20px;
+				left: 50px;
+				transform: translateX(-50%);
+				color: #00ff66;
+				font: bold 18px monospace;
+				
+			}
+        </style>
+	</head>
+	<body>
+		<div id="fps-meter">FPS: 0</div>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="index.js"></script>
+	</body>
+</html>

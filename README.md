@@ -1,2 +1,2 @@
 # Learning-Javascript
-Im learning javascript from scratch language
+Im learning javascript from Scratch language (scratch.mit.edu)
